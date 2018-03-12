@@ -1,14 +1,2695 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "bUnits": [
+        {
+            "bUnitId": 1,
+            "bUnitName": "Near",
+            "patientList": [
+                {
+                    "id": 21,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:50:16.227Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient145",
+                            "lastName": "alok145",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed145",
+                            "pu": 1,
+                            "iad": 0,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 22,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:50:36.823Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient146",
+                            "lastName": "alok146",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed145",
+                            "pu": 1,
+                            "iad": 0,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 23,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:50:57.423Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient147",
+                            "lastName": "alok147",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed146",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 24,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:51:18.17Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient148",
+                            "lastName": "alok148",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed147",
+                            "pu": 0,
+                            "iad": 1,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 25,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:51:38.623Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient149",
+                            "lastName": "alok149",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed148",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 26,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:51:59.223Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 2,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient150",
+                            "lastName": "alok150",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed149",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 27,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:52:19.817Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient151",
+                            "lastName": "alok151",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed150",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 28,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:52:40.407Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient152",
+                            "lastName": "alok152",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed151",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 426,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 29,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:53:00.990Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient153",
+                            "lastName": "alok153",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed152",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 426,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 30,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": -2,
+                            "exposure": null,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:53:21.577Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient154",
+                            "lastName": "alok154",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed153",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 31,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": -1,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:53:42.170Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient155",
+                            "lastName": "alok155",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed154",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 426,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 32,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": -2,
+                            "exposure": null,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:54:02.763Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient156",
+                            "lastName": "alok156",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed155",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 33,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": 1,
+                            "exposure": 999,
+                            "proximity": "Savitha123",
+                            "timePadChange": "2017-01-12T23:54:23.370Z",
+                            "timeStart": "2018-03-10T02:52:51.650Z",
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient157",
+                            "lastName": "alok157",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed156",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": 426,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 34,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": -2,
+                            "exposure": null,
+                            "proximity": null,
+                            "timePadChange": "2017-01-12T23:54:43.970Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient158",
+                            "lastName": "alok158",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed157",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": 25,
+                                "firstName": "siyan",
+                                "lastName": "Siya",
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 35,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T19:01:31.843Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient159",
+                            "lastName": "alok159",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed158",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 36,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T19:41:34.797Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient160",
+                            "lastName": "alok160",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed159",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 37,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T20:11:37.33Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient161",
+                            "lastName": "alok161",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed160",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 38,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T20:41:39.263Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient162",
+                            "lastName": "alok162",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed161",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 39,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T21:11:41.267Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient163",
+                            "lastName": "alok163",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed162",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 40,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T21:41:43.50Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient164",
+                            "lastName": "alok164",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed163",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 41,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T22:11:44.817Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient165",
+                            "lastName": "alok165",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed164",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 42,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T22:41:46.767Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient166",
+                            "lastName": "alok166",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed165",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 43,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T23:11:49.70Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient167",
+                            "lastName": "alok167",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed166",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 44,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T23:41:51.827Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient168",
+                            "lastName": "alok168",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed167",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 45,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-13T00:11:55.773Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient169",
+                            "lastName": "alok169",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed168",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 46,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T19:03:42.473Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient170",
+                            "lastName": "alok170",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed169",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 47,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T19:33:44.7Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient171",
+                            "lastName": "alok171",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed170",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 48,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T20:03:45.537Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient172",
+                            "lastName": "alok172",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed171",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 49,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T20:33:47.90Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient173",
+                            "lastName": "alok173",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed172",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 50,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T21:03:48.600Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient174",
+                            "lastName": "alok174",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed173",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 51,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T21:33:50.150Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient175",
+                            "lastName": "alok175",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed174",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 52,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T22:03:51.690Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient176",
+                            "lastName": "alok176",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed175",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 53,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T22:33:53.257Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient177",
+                            "lastName": "alok177",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed176",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 54,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T23:03:54.773Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient178",
+                            "lastName": "alok178",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed177",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 55,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-09T23:33:56.330Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient179",
+                            "lastName": "alok179",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed178",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 56,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T00:03:57.883Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient180",
+                            "lastName": "alok180",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed179",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 57,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T00:33:54.617Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient181",
+                            "lastName": "alok181",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed180",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 58,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T01:03:56.160Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient182",
+                            "lastName": "alok182",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed181",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 59,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T01:33:57.700Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient183",
+                            "lastName": "alok183",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed182",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 60,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-12T06:58:23.140Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient184",
+                            "lastName": "alok184",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed183",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 61,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T02:34:00.750Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient185",
+                            "lastName": "alok185",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed184",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 62,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T03:04:02.323Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient186",
+                            "lastName": "alok186",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed185",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 63,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T03:34:03.893Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient187",
+                            "lastName": "alok187",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed186",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 64,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T04:04:05.437Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient188",
+                            "lastName": "alok188",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed187",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 65,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T04:34:06.947Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient189",
+                            "lastName": "alok189",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed188",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 66,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T05:04:08.490Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient190",
+                            "lastName": "alok190",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed189",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 67,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T05:34:10.47Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient191",
+                            "lastName": "alok191",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed190",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 68,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T06:04:11.567Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patient192",
+                            "lastName": "alok192",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed191",
+                            "pu": 1,
+                            "iad": 1,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 69,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T06:34:13.130Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "patientD",
+                            "lastName": "alokD",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed192",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 70,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2016-12-10T07:04:14.677Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "tulp",
+                            "lastName": "kain",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "room3",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 89,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-05-25T11:46:41.957Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "Pat",
+                            "lastName": "Alert",
+                            "gender": "Male",
+                            "dob": "2016-12-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "NearRoom2",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": 323,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 98,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-08-11T06:16:15.420Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": ""
+                        },
+                        "static": {
+                            "firstName": "Sercom",
+                            "lastName": "Alok",
+                            "gender": "Male",
+                            "dob": "1957-01-16",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "Sercom6F",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": 368,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 151,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": null,
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "jackson",
+                            "lastName": "jeo",
+                            "gender": "Male",
+                            "dob": "2007-06-05",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "rook3pk",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 164,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": 1,
+                            "exposure": 999,
+                            "proximity": "Savitha123",
+                            "timePadChange": "2017-08-22T07:42:21.183Z",
+                            "timeStart": "2018-03-10T02:32:14.120Z",
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "R",
+                            "lastName": "Williams",
+                            "gender": "Male",
+                            "dob": "2017-08-02",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "NearRoom1",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": 434,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "bUnitId": 2,
+            "bUnitName": "Near1",
+            "patientList": [
+                {
+                    "id": 1,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-03-08T00:32:08.977Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 2,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "cook",
+                            "lastName": "thomas",
+                            "gender": "Male",
+                            "dob": "2016-01-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed194",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": null,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": 4,
+                            "exposure": 999,
+                            "proximity": "Savitha123",
+                            "timePadChange": "2017-03-08T00:32:08.977Z",
+                            "timeStart": "2018-03-10T02:29:32.687Z",
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "cook",
+                            "lastName": "thomas",
+                            "gender": "Male",
+                            "dob": "2016-01-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "RoomBed194",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": 368,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "value": {
+                        "dynamic": {
+                            "isTaken": 0,
+                            "userId": null,
+                            "userTakenTime": null,
+                            "wetness": null,
+                            "exposure": 0,
+                            "proximity": null,
+                            "timePadChange": "2017-02-01T08:48:05.603Z",
+                            "timeStart": null,
+                            "respondTime": false,
+                            "notes": [],
+                            "productTypeId": 1,
+                            "delayTimer": null,
+                            "bedRemark": null
+                        },
+                        "static": {
+                            "firstName": "brad",
+                            "lastName": "Rudolf",
+                            "gender": "Male",
+                            "dob": "2012-11-01",
+                            "picture": null,
+                            "primaryDisease": null,
+                            "room": "Roomsim",
+                            "pu": 0,
+                            "iad": 0,
+                            "statusTransmitter": 444,
+                            "collExposure": {
+                                "day": null,
+                                "week": null,
+                                "month": null
+                            },
+                            "alertHistory": [],
+                            "careGiver": {
+                                "id": null,
+                                "firstName": null,
+                                "lastName": null,
+                                "title": null,
+                                "facility": "1"
+                            },
+                            "weeklyUsage": null,
+                            "diseaseInfo": []
+                        }
+                    }
+                }
+            ]
+        }
+    ]
 }
